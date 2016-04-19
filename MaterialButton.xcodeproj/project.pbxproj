@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0FA44E1CC52F0F00172425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA44D1CC52F0F00172425 /* main.m */; };
+		3E0FA4511CC52F0F00172425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4501CC52F0F00172425 /* AppDelegate.m */; };
+		3E0FA4541CC52F0F00172425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4531CC52F0F00172425 /* ViewController.m */; };
+		3E0FA4571CC52F0F00172425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0FA4551CC52F0F00172425 /* Main.storyboard */; };
+		3E0FA4591CC52F0F00172425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0FA4581CC52F0F00172425 /* Assets.xcassets */; };
+		3E0FA45C1CC52F0F00172425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0FA45A1CC52F0F00172425 /* LaunchScreen.storyboard */; };
+		3E0FA4671CC52F0F00172425 /* MaterialButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4661CC52F0F00172425 /* MaterialButtonTests.m */; };
+		3E0FA4721CC52F1000172425 /* MaterialButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4711CC52F1000172425 /* MaterialButtonUITests.m */; };
+		3E0FA4811CC5336900172425 /* MTDButtonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4801CC5336900172425 /* MTDButtonTestViewController.m */; };
+		3E0FA4851CC534A800172425 /* MTDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4841CC534A800172425 /* MTDButton.m */; };
+		3E0FA4881CC548E400172425 /* MTDRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA4871CC548E400172425 /* MTDRippleLayer.m */; };
+		3E0FA48B1CC5519D00172425 /* UIColor+MTDHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FA48A1CC5519D00172425 /* UIColor+MTDHexColor.m */; };
+		3EF2E5FC1CC5D73C00B7676D /* MTDTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2E5FB1CC5D73C00B7676D /* MTDTouchGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E0FA4631CC52F0F00172425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0FA4411CC52F0F00172425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E0FA4481CC52F0F00172425;
+			remoteInfo = MaterialButton;
+		};
+		3E0FA46E1CC52F1000172425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0FA4411CC52F0F00172425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E0FA4481CC52F0F00172425;
+			remoteInfo = MaterialButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E0FA4491CC52F0F00172425 /* MaterialButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0FA44D1CC52F0F00172425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E0FA44F1CC52F0F00172425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E0FA4501CC52F0F00172425 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E0FA4521CC52F0F00172425 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E0FA4531CC52F0F00172425 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E0FA4561CC52F0F00172425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E0FA4581CC52F0F00172425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E0FA45B1CC52F0F00172425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E0FA45D1CC52F0F00172425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0FA4621CC52F0F00172425 /* MaterialButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0FA4661CC52F0F00172425 /* MaterialButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaterialButtonTests.m; sourceTree = "<group>"; };
+		3E0FA4681CC52F0F00172425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0FA46D1CC52F1000172425 /* MaterialButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0FA4711CC52F1000172425 /* MaterialButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaterialButtonUITests.m; sourceTree = "<group>"; };
+		3E0FA4731CC52F1000172425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0FA47F1CC5336900172425 /* MTDButtonTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDButtonTestViewController.h; sourceTree = "<group>"; };
+		3E0FA4801CC5336900172425 /* MTDButtonTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDButtonTestViewController.m; sourceTree = "<group>"; };
+		3E0FA4831CC534A800172425 /* MTDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDButton.h; sourceTree = "<group>"; };
+		3E0FA4841CC534A800172425 /* MTDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDButton.m; sourceTree = "<group>"; };
+		3E0FA4861CC548E400172425 /* MTDRippleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDRippleLayer.h; sourceTree = "<group>"; };
+		3E0FA4871CC548E400172425 /* MTDRippleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDRippleLayer.m; sourceTree = "<group>"; };
+		3E0FA4891CC5519D00172425 /* UIColor+MTDHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MTDHexColor.h"; sourceTree = "<group>"; };
+		3E0FA48A1CC5519D00172425 /* UIColor+MTDHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MTDHexColor.m"; sourceTree = "<group>"; };
+		3EF2E5FA1CC5D73C00B7676D /* MTDTouchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDTouchGestureRecognizer.h; sourceTree = "<group>"; };
+		3EF2E5FB1CC5D73C00B7676D /* MTDTouchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDTouchGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E0FA4461CC52F0F00172425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0FA45F1CC52F0F00172425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0FA46A1CC52F1000172425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0FA4401CC52F0F00172425 = {
+			isa = PBXGroup;
+			children = (
+				3E0FA44B1CC52F0F00172425 /* MaterialButton */,
+				3E0FA4651CC52F0F00172425 /* MaterialButtonTests */,
+				3E0FA4701CC52F1000172425 /* MaterialButtonUITests */,
+				3E0FA44A1CC52F0F00172425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E0FA44A1CC52F0F00172425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA4491CC52F0F00172425 /* MaterialButton.app */,
+				3E0FA4621CC52F0F00172425 /* MaterialButtonTests.xctest */,
+				3E0FA46D1CC52F1000172425 /* MaterialButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E0FA44B1CC52F0F00172425 /* MaterialButton */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA4821CC5344D00172425 /* mtd */,
+				3E0FA44F1CC52F0F00172425 /* AppDelegate.h */,
+				3E0FA4501CC52F0F00172425 /* AppDelegate.m */,
+				3E0FA4521CC52F0F00172425 /* ViewController.h */,
+				3E0FA4531CC52F0F00172425 /* ViewController.m */,
+				3E0FA4551CC52F0F00172425 /* Main.storyboard */,
+				3E0FA4581CC52F0F00172425 /* Assets.xcassets */,
+				3E0FA45A1CC52F0F00172425 /* LaunchScreen.storyboard */,
+				3E0FA45D1CC52F0F00172425 /* Info.plist */,
+				3E0FA44C1CC52F0F00172425 /* Supporting Files */,
+				3E0FA47F1CC5336900172425 /* MTDButtonTestViewController.h */,
+				3E0FA4801CC5336900172425 /* MTDButtonTestViewController.m */,
+			);
+			path = MaterialButton;
+			sourceTree = "<group>";
+		};
+		3E0FA44C1CC52F0F00172425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA44D1CC52F0F00172425 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E0FA4651CC52F0F00172425 /* MaterialButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA4661CC52F0F00172425 /* MaterialButtonTests.m */,
+				3E0FA4681CC52F0F00172425 /* Info.plist */,
+			);
+			path = MaterialButtonTests;
+			sourceTree = "<group>";
+		};
+		3E0FA4701CC52F1000172425 /* MaterialButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA4711CC52F1000172425 /* MaterialButtonUITests.m */,
+				3E0FA4731CC52F1000172425 /* Info.plist */,
+			);
+			path = MaterialButtonUITests;
+			sourceTree = "<group>";
+		};
+		3E0FA4821CC5344D00172425 /* mtd */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA4891CC5519D00172425 /* UIColor+MTDHexColor.h */,
+				3E0FA48A1CC5519D00172425 /* UIColor+MTDHexColor.m */,
+				3EF2E5FA1CC5D73C00B7676D /* MTDTouchGestureRecognizer.h */,
+				3EF2E5FB1CC5D73C00B7676D /* MTDTouchGestureRecognizer.m */,
+				3E0FA4831CC534A800172425 /* MTDButton.h */,
+				3E0FA4841CC534A800172425 /* MTDButton.m */,
+				3E0FA4861CC548E400172425 /* MTDRippleLayer.h */,
+				3E0FA4871CC548E400172425 /* MTDRippleLayer.m */,
+			);
+			name = mtd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E0FA4481CC52F0F00172425 /* MaterialButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0FA4761CC52F1000172425 /* Build configuration list for PBXNativeTarget "MaterialButton" */;
+			buildPhases = (
+				3E0FA4451CC52F0F00172425 /* Sources */,
+				3E0FA4461CC52F0F00172425 /* Frameworks */,
+				3E0FA4471CC52F0F00172425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialButton;
+			productName = MaterialButton;
+			productReference = 3E0FA4491CC52F0F00172425 /* MaterialButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E0FA4611CC52F0F00172425 /* MaterialButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0FA4791CC52F1000172425 /* Build configuration list for PBXNativeTarget "MaterialButtonTests" */;
+			buildPhases = (
+				3E0FA45E1CC52F0F00172425 /* Sources */,
+				3E0FA45F1CC52F0F00172425 /* Frameworks */,
+				3E0FA4601CC52F0F00172425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0FA4641CC52F0F00172425 /* PBXTargetDependency */,
+			);
+			name = MaterialButtonTests;
+			productName = MaterialButtonTests;
+			productReference = 3E0FA4621CC52F0F00172425 /* MaterialButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E0FA46C1CC52F1000172425 /* MaterialButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0FA47C1CC52F1000172425 /* Build configuration list for PBXNativeTarget "MaterialButtonUITests" */;
+			buildPhases = (
+				3E0FA4691CC52F1000172425 /* Sources */,
+				3E0FA46A1CC52F1000172425 /* Frameworks */,
+				3E0FA46B1CC52F1000172425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0FA46F1CC52F1000172425 /* PBXTargetDependency */,
+			);
+			name = MaterialButtonUITests;
+			productName = MaterialButtonUITests;
+			productReference = 3E0FA46D1CC52F1000172425 /* MaterialButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E0FA4411CC52F0F00172425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mcy;
+				TargetAttributes = {
+					3E0FA4481CC52F0F00172425 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3E0FA4611CC52F0F00172425 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3E0FA4481CC52F0F00172425;
+					};
+					3E0FA46C1CC52F1000172425 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3E0FA4481CC52F0F00172425;
+					};
+				};
+			};
+			buildConfigurationList = 3E0FA4441CC52F0F00172425 /* Build configuration list for PBXProject "MaterialButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E0FA4401CC52F0F00172425;
+			productRefGroup = 3E0FA44A1CC52F0F00172425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E0FA4481CC52F0F00172425 /* MaterialButton */,
+				3E0FA4611CC52F0F00172425 /* MaterialButtonTests */,
+				3E0FA46C1CC52F1000172425 /* MaterialButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E0FA4471CC52F0F00172425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0FA45C1CC52F0F00172425 /* LaunchScreen.storyboard in Resources */,
+				3E0FA4591CC52F0F00172425 /* Assets.xcassets in Resources */,
+				3E0FA4571CC52F0F00172425 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0FA4601CC52F0F00172425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0FA46B1CC52F1000172425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E0FA4451CC52F0F00172425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0FA48B1CC5519D00172425 /* UIColor+MTDHexColor.m in Sources */,
+				3E0FA4811CC5336900172425 /* MTDButtonTestViewController.m in Sources */,
+				3E0FA4851CC534A800172425 /* MTDButton.m in Sources */,
+				3E0FA4541CC52F0F00172425 /* ViewController.m in Sources */,
+				3E0FA4881CC548E400172425 /* MTDRippleLayer.m in Sources */,
+				3EF2E5FC1CC5D73C00B7676D /* MTDTouchGestureRecognizer.m in Sources */,
+				3E0FA4511CC52F0F00172425 /* AppDelegate.m in Sources */,
+				3E0FA44E1CC52F0F00172425 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0FA45E1CC52F0F00172425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0FA4671CC52F0F00172425 /* MaterialButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0FA4691CC52F1000172425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0FA4721CC52F1000172425 /* MaterialButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E0FA4641CC52F0F00172425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E0FA4481CC52F0F00172425 /* MaterialButton */;
+			targetProxy = 3E0FA4631CC52F0F00172425 /* PBXContainerItemProxy */;
+		};
+		3E0FA46F1CC52F1000172425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E0FA4481CC52F0F00172425 /* MaterialButton */;
+			targetProxy = 3E0FA46E1CC52F1000172425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E0FA4551CC52F0F00172425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E0FA4561CC52F0F00172425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E0FA45A1CC52F0F00172425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E0FA45B1CC52F0F00172425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E0FA4741CC52F1000172425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E0FA4751CC52F1000172425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E0FA4771CC52F1000172425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaterialButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cimob.MaterialButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E0FA4781CC52F1000172425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaterialButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cimob.MaterialButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E0FA47A1CC52F1000172425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaterialButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cimob.MaterialButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaterialButton.app/MaterialButton";
+			};
+			name = Debug;
+		};
+		3E0FA47B1CC52F1000172425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaterialButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cimob.MaterialButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaterialButton.app/MaterialButton";
+			};
+			name = Release;
+		};
+		3E0FA47D1CC52F1000172425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaterialButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cimob.MaterialButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaterialButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3E0FA47E1CC52F1000172425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaterialButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cimob.MaterialButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaterialButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E0FA4441CC52F0F00172425 /* Build configuration list for PBXProject "MaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0FA4741CC52F1000172425 /* Debug */,
+				3E0FA4751CC52F1000172425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E0FA4761CC52F1000172425 /* Build configuration list for PBXNativeTarget "MaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0FA4771CC52F1000172425 /* Debug */,
+				3E0FA4781CC52F1000172425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E0FA4791CC52F1000172425 /* Build configuration list for PBXNativeTarget "MaterialButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0FA47A1CC52F1000172425 /* Debug */,
+				3E0FA47B1CC52F1000172425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E0FA47C1CC52F1000172425 /* Build configuration list for PBXNativeTarget "MaterialButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0FA47D1CC52F1000172425 /* Debug */,
+				3E0FA47E1CC52F1000172425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E0FA4411CC52F0F00172425 /* Project object */;
+}
